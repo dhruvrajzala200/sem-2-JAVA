@@ -24,9 +24,10 @@ public class Lab_2_3{
            case "/":
            	if( b!=0)
            		System.out.println("Dividation ="+(a/b));
-            else
-            	System.out.println("Error : Enter non-zero Number");
-            break;
+				   else
+             System.out.println("Eror ! => Enter non zero number in denomenater."); 
+             b=sc.nextDouble();
+             System.out.println(a/b);
 
            default:
 			System.out.println("Enter a valid operation");
