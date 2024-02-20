@@ -19,10 +19,10 @@ public class PointInTriangle{
 		Triangle a3 = new Triangle(x,y,x2,y2,x3,y3);
 		Triangle a = new Triangle(x1,y1,x2,y2,x3,y3);
 		if((a1.Area()+a2.Area()+a3.Area())==a.Area()){
-			return 1;
+			System.out.println("given point is the triangle");
 		}
 		else{
-			return 0;
+			System.out.println("given point is not in the triangle");
 		}
     }
 }
